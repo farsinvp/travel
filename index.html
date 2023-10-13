@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Webpage</title>
+ <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-light">
+    <div class="navbar navbar-expand-md navbar-light"> <div class="container-fluid">
+        <div>
+            <img src="./image/kerala-removebg-preview__2_-removebg-preview.png" alt="">
+        <a href="#" class="navbar-brand text-uppercase"></a> 
+    </div>
+        
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#" class="nav-link text-uppercase" >blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">articles</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+      <div class="container-fluid px-0">
+        <div id="main-carousel" class="carousel slide" data-ride="carousel"> 
+            <ol class="carousel-indicators">
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="2" class="active"></li>
+            </ol>
+
+        <div class="carousel-inner">
+            <div  class="carousel-item active">
+                <img src="./image/pic1.png" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div  class="carousel-item active">
+                <img src="./image/pic1.png" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”.</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div  class="carousel-item active">
+                <img src="./image/pic1.png" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <a href="#main-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#main-carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>  -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <!-- <span class="visually-hidden">Previous</span> -->
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <!-- <span class="visually-hidden">Next</span> -->
+          </button>
+    </div>
+    </div>
+
+    <div class="container-fluid p-5">
+        <div class="d-flex align-items-center justify-content-around">
+            <div  class="btn-group">
+                
+            </div>
+
+            <div></div>
+
+
+        <div>
+            <h4 class="text-uppercase font-weight-bold">Choose Your place</h4>
+        </div>
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search by Keywords"> 
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="button-addon2">Search</button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://paradise-kerala.com/blog/wp-content/uploads/2013/10/Mananchira-Square.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Kozhikode</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Kozhikode also known as Calicut, is a city in the state of Kerala in southern India on the Malabar coast. Kozhikode is the largest urban area in the state and 195th largest urban area in the world.</p>
+                                <h5 class="card-title text-uppercase">Package Starting 5999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://media2.thrillophilia.com/images/photos/000/004/139/original/1552981777_bekal_fort.jpg?width=975&height=600" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Kasargod</h5>
+                            <div class="text-muted">
+                                <p class="card-text">The northernmost district of Kerala, Kasaragod is famous for its handlooms and its 293 kilometre long coastline. With its cultural uniqueness, the place is known as the land of gods. Rich in history, Kasaragod is home to the largest and best preserved fort in the State - Bekal.</p>
+                                <h5 class="card-title text-uppercase">Package Starting 1999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://www.oyorooms.com/blog/wp-content/uploads/2019/06/Padmanabha-Swamy-Temple-Famous-8-places-to-visit-in-trivandrum-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Trivandram</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Thiruvananthapuram is located on the west coast of India near the extreme south of the mainland. Referred by Mahatma Gandhi as the “Evergreen city of India”,the city is characterised by its undulating terrain of low coastal hills.</p>
+                                <h5 class="card-title text-uppercase">Package Starting 2999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://www.amastaysandtrails.com/content/dam/ama/Our-hotels/wayanad/Wayanad.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Wayanad</h5>
+                            <div class="text-muted">
+                                <p class="card-text">It is a picturesque plateau situated at a height between 700 meters and 2100 meters above the mean sea level nested among the mountains of the Western Ghats on the Eastern portion of North Kerala and on the sides of Tamil Nadu and Karnataka States.</p>
+                                <h5 class="card-title text-uppercase">Package Starting 1899</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://live-core-api.travalour.com/common/v1/thumbnail/b4ee5edf-32e1-11ea-a2af-0ec82d6f8976?format=webp&width=960" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Kannur</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Kannur is dubbed as the City of Looms and Lores, thanks to the flourishing handloom industry and folk art called Theyyam. Theyyamis a ritualistic artform encompassing dance, music and mime, where the artist dons the guise of God. Kannur is believed to have got its name from being the land of Kannan or Krishna.</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://gavi.kerala.com/images/gavi-eco-tourism-bg-2.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Pathanamthitta(Gavi)</h5>
+                            <div class="text-muted">
+                                <p class="card-text">It was carved out of Idukki, Alappuzha and Kollam districts. The district is close to the western Ghats and is endowed with scenic landscape comprising of low undulating hills, extensive stretches of lush forests, rivers and charming countryside. It is also known for exuberant fairs and festivals.</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/24003539/ALLEYPPEY-FEATURE-compressed.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Alappuzha</h5>
+                            <div class="text-muted">
+                                <p class="card-text">A town with canals, backwaters, beaches, and lagoons, Alappuzha was described by George Curzon, Viceroy of India at the start of the 20th century, as the "Venice of the East." Hence, it is known as the "Venetian Capital" of Kerala. It is an important tourist destination in India.</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/04/812.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">IdukkI</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Idukki which lies in the Western Ghats of Kerala is the second largest district in area but has the lowest population density. Idukki has a vast forest reserve area; more than a half of the district is covered by forests.</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="offer" class="offer mt-5 mb-5">
+                <div class="overlay d-flex flex-column align-items-center justify-content-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <h1 class="display-3 text-white">Book now and Get 25% off</h1>
+                        <p class="about-p lead text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis fuga vero. Aut cupiditate sapiente eveniet officiis ratione dignissimos tempora!</p>
+                      </div>
+                      <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+                        <button type="button" class="btn btn-success">Book Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            
+              <!-- packages section -->
+              <section id="packages" class="packages">
+                <div class="container">
+                  <h1 class="mb-5 text-center">Our Packages</h1>
+            
+                  <div id="carouselExample" class="carousel slide">
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            
+                            <div class="cards-wrapper">
+                                <div class="card">
+                                    <img src="./image/pack1.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">3 Nights 4 Days</p>
+                                        <h5 class="card-title">Munnar – Thekkady – Alleppey</h5>
+                                        <p class="card-text">Starting @ Rs 8,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="card d-none d-md-block">
+                                    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1000x650-115.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">4 Nights 5 Days</p>
+                                      <h5 class="card-title">Cochin – Munnar – Alleppey</h5>
+                                        <p class="card-text">Starting @ Rs 9,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="card d-none d-md-block">
+                                    <img src="./image/pack3.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">5 Nights 6 Days</p>
+                                        <h5 class="card-title">Kovalam – Munnar – Thekkady</h5>
+                                        <p class="card-text">Starting @ Rs 13,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="carousel-item">
+                            
+                            <div class="cards-wrapper">
+                                <div class="card">
+                                    <img src="https://www.indiantempletour.com/wp-content/uploads/2023/08/Kerala-Tour-Packages-for-Family.webp" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">5 Nights 6 Days</p>
+                                        <h5 class="card-title">Enchanting Kerala Family Tour</h5>
+                                        <p class="card-text">Starting @ Rs 13,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="card d-none d-md-block">
+                                    <img src="https://backend.traviyo.com/Images/Packages/AYAN_40981/637727680328112674_temp.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">6 Nights 7 Days</p>
+                                        <h5 class="card-title">Glorious Family Holiday Kerala</h5>
+                                        <p class="card-text">Starting @ Rs 16,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="card d-none d-md-block">
+                                    <img src="https://www.clubmahindra.com/blog/media/section_images/best-thing-7b7a35fee25f348.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">7 Nights 8 Days</p>
+                                      <h5 class="card-title">Rejuvenating Family Kerala Tour</h5>
+                                        <p class="card-text">Starting @ Rs 17,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="carousel-item">
+                            
+                            <div class="cards-wrapper">
+                              <div class="card d-none d-md-block">
+                                <img src="https://cdn2.advanceinfotech.org/kozhikode.directory/1200x675/business/373/4-1633319727.webp" height="53%" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="duration">2 Nights 3 Days</p>
+                                    <h5 class="card-title">Amazing Kerala Budget Tour</h5>
+                                    <p class="card-text">Starting @ Rs 3,999/-</p>
+                                    <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                </div>
+                            </div>
+            
+                                <div class="card">
+                                    <img src="https://www.holidify.com/images/cmsuploads/compressed/Beypore1_20180112222539.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">5 Nights 6 Days</p>
+                                        <h5 class="card-title">Best Magical Kerala Tour</h5>
+                                        <p class="card-text">Starting @ Rs 12,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="card d-none d-md-block">
+                                    <img src="https://www.travelholicq.com/wp-content/uploads/2021/06/Offbeat-Places-To-Visit-In-Darjeeling.jpg" height="53%" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="duration">6 Nights 7 Days</p>
+                                        <h5 class="card-title">Offbeat kerala Family Package</h5>
+                                        <p class="card-text">Starting @ Rs 14,999/-</p>
+                                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            
+                </div>
+            
+            
+                </div>
+              </section>
+                            <div class="contactform">
+
+                                <h5 class="text-uppercase">If You Are Intrested</h5>
+                                <h3>Contact</h3>
+                                <form action="">
+                    
+                                    <input type="text" name="Name" placeholder="Your name" required><br> <br>
+                                    <input type="email" name="email" placeholder="Your Email" required><br> <br>
+                                    <textarea name="messege" cols="30" rows="6" placeholder="Your Trip Discription......." required></textarea> <br><br>
+                                    <button type="submit"> Send <i class="fas fa-paper-plane"></i></button>
+                    
+                    
+                                </form>
+                            
+                            </div>
+                            
+                            <!-- <div class="contacts">
+                                <div class="follow">
+                                    <div></div>
+                                    <div></div>
+                
+                                    <div class="icon">
+                                        <a href="https://www.linkedin.com/in/farsinvp/"> <i class="fa-brands fa-linkedin" style="color: green;"></i></a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="https://github.com/farsinvp"> <i class="fa-brands fa-github" style="color: green"></i></i></a>
+                                    </div>
+                
+                                    <div class="icon">
+                                        <a href="https://www.instagram.com/_fa_rsii/"> <i class="fa-brands fa-instagram" style="color: green"></i></a>
+                                    </div>
+                
+                
+                                </div> -->
+                               
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer>
+            <section class="mt-5" id="footer">
+      
+                <div class="footer">
+                  <div class="container">
+          
+                    <div class="row">
+          
+                      <div class="col-md-4 foot-title">
+                        <!-- <h3>Travel<span class="o">O</span></h3> -->
+                      </div>
+                      <div class="col-md-4"></div>
+                      <div class="col-md-4 pt-2 phone">
+                        <p><i class="fa-solid fa-phone"></i>  +91 000-000-0000</p>
+                      </div>
+          
+                    </div>
+          
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="row">
+                          <div class="col-6 col">
+                            <p>MENU</p>
+                              <a href="#">About Us</a>
+                              <a href="#">Why Us</a>
+                              <a href="#">Things to Do</a>
+                              <a href="#">Features</a>
+                          </div>
+                          <div class="col-6 col">
+                            <p>ABOUT US</p>
+                              <a href="#">Privacy Policy</a>
+                              <a href="#">Disclosures</a>
+                              <a href="#">Privacy Promise</a>
+                              <a href="#">Terms & Conditions</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4 col">
+                        <h5>STAY CONNECTED</h5>
+                          <form class="d-flex letter pt-2" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+                            <button type="button" class="btn btn-primary">Sign Up</button>
+                          </form>
+                          <h5 class="pt-3">FOLLOW US</h5>
+                          <div class="iconDiv pt-2">
+                            <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                            <a href="https://www.linkedin.com/in/farsinvp/"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                            <a href="https://github.com/farsinvp"><i class="fa-brands fa-github fa-xl"></i><a>
+                            
+                          </div>
+                      </div>
+                    </div>
+          
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <p style="color: #e1e1e1; text-align: center;">&copy;website</span> 2023, All Rights Reserved&reg;Farsin<span class="o">VP</p>
+                      </div>
+                      <!-- <div class="col-sm-2">
+                        <div class="uparrow">
+                          <a href="#home"><i class="fa-solid fa-arrow-up fa-xl" style="color: #00040a;"></i></a>
+                      </div>
+                      </div> -->
+                    </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+    
+</html>
